@@ -52,9 +52,10 @@
   </head>
 
   <body>
-    <!-- BARRA MENU -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-black border-bottom shadow-sm mb-3"
+    <div class="d-flex flex-column wrapper">
+      <!-- BARRA MENU -->
+      <nav
+      class="navbar navbar-expand-lg navbar-dark bg-black  shadow-sm mb-3"
     >
       <!-- BARRA DE MENU RESPONSIVA AO TAMANHO -->
       <div class="container">
@@ -70,8 +71,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-    </nav>
-    <nav
+      </nav>
+      <nav
       class="navbar navbar-expand-lg navbar-dark bg-secondary border-bottom shadow-sm mb-3"
     >
       <!-- BARRA DE MENU RESPONSIVA AO TAMANHO -->
@@ -124,8 +125,51 @@
           </div>
         </div>
       </div>
-    </nav>
+      </nav>
 
+      <main class="flex-fill">        
+      </main>
+      <!-- RODAPÉ -->
+      <footer class="border-top text-muted bg-light" >
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12 col-md-4 text-center">
+            &copy; Casa Fleur Decor LTDA<br>
+            Alameda Dom Emanuel Gomes, 311, Goiânia/GO<br>
+            CNPJ-26.475.878/0001-77
+          </div>
+
+          <div class="col-12 col-md-4 text-center">
+            <a href="/privacidade.html" class="text-decoration-nome text-dark">
+              Política de Privacidade
+            </a><br>
+            <a href="/termos.html" class="text-decoration-nome text-dark">
+              Termos de uso
+            </a><br>
+            <a href="/quemsomos.html" class="text-decoration-nome text-dark">
+              Quem Somos
+            </a><br>
+            <a href="/trocas.html" class="text-decoration-nome text-dark">
+              Trocas e Devoluções
+            </a>
+          </div>
+
+          <div class="col-12 col-md-4 text-center">
+            <a href="" class="text-decoration-nome text-dark">
+              Contato 
+            </a><br>
+            E-mail: <a href="mailto:sac@casafleur.com.br" class="text-decoration-none text-dark">
+              sac@casafleur.com.br
+            </a><br>
+            Telefone: <a href="phone:+556232125090" class="text-decoration-none text-dark">
+              (62)3212-5090
+            </a>
+          </div>
+
+        </div>
+      </div>
+      </footer>
+    </div>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
